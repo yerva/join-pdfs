@@ -1,0 +1,10 @@
+OUTPUT_DIR: /tmp/sample-join-pdfs
+OUTPUTS:
+  - OUT_FILE: O1.pdf
+    INPUTS:
+      - F1.pdf
+      - F2.pdf
+  - OUT_FILE: O2.pdf
+    INPUTS:
+      - F3.pdf
+      - F4.pdf      
